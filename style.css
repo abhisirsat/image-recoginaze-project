@@ -1,0 +1,74 @@
+body{
+
+background: linear-gradient(green 0%, yellow 100%);
+font-family: 'Metal Mania', cursive;
+background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2015/04/colortheory.jpg);
+}
+
+
+#result,#camera{
+
+    backdrop-filter: blur(9px) saturate(200%);
+    -webkit-backdrop-filter: blur(9px) saturate(200%);
+    background-color: rgba(27, 71, 160, 0.3);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  background-color:orange ;
+  
+}
+
+
+
+
+#rect {
+  top: 30px;
+  width: 100px;
+  height: 100px;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  box-shadow: inset 1px 1px 0.12px rgba(255, 255, 255, 0.4),
+    1px 1px 3px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  position: absolute;
+}
+
+
+
+
+#circle {
+  bottom: 100px;
+  left: calc(100vw / 3);
+  width: 50px;
+  height: 50px;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: inset 1px 1px 0.12px rgba(255, 255, 255, 0.4),
+    1px 1px 3px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  position: absolute;
+}
+
+
+#p{
+
+  backdrop-filter: blur(9px) saturate(200%);
+  -webkit-backdrop-filter: blur(9px) saturate(200%);
+  background-color: rgba(38, 204, 9, 0.383);
+  border-radius: 12px;
+  border: 1px solid rgba(7, 231, 175, 0.966);
+  border-width: 5px;
+
+}
